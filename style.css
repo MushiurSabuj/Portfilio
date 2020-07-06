@@ -1,0 +1,137 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: skyblue;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: auto;
+    margin: opx;
+    text-decoration: black;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-wrapper > .left-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.nav-link-wrapper {
+    height: 20px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper {
+    color: #8a8a8a;
+    text-decoration: none;
+    transform: color 0.5s;
+}
+
+.nav-link-wrapper :hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+nav {
+    background-color: rgb(219, 219, 9);
+    height: 40px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main {
+    height: 300px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+footer {
+    background-color: goldenrod;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 86px;
+    color: green;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+footer p{
+    text-decoration: black;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+
+.maps {
+    padding-bottom: 30px;
+}
+
+/* about page*/
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Profile-image-wrapper img {
+    width: 100%;
+
+}
+.profile-content-wrapper {
+    padding: 30px;
+}
+
+.profile-content-wrapper h1{
+    color: rgb(235, 22, 40);
+}
