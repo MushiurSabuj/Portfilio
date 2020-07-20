@@ -11,6 +11,11 @@ body {
     text-decoration: black;
 }
 
+img {
+    height: 300px;
+    width: 400px;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
